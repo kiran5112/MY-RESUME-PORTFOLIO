@@ -21,9 +21,9 @@ function Sarvice() {
     }
     function handle(){
         if(result){
-        confirm( result+'  '+'Transfer Successfully😊💰')
+        confirm( result+'  '+' Rupees Transfer Successfully😊💰')
         setTimeout(()=>{
-            alert(' Congradulations!🎊 Ticket is booked succesfully for 4/06/2023')
+            alert(' Congradulations!🎊 Ticket is booked succesfully on 4/06/2023')
         },1000)
     }else{
         alert('🥺ENTER THE VALID AMOUNT')
@@ -36,7 +36,7 @@ function Sarvice() {
         <h1>💰🪙💸💴</h1>
 
         <h3>ENTER THE AMONT</h3>
-            <input placeholder='0' value={result} />
+            <input placeholder='ENTER THE TICKET AMAUNT' value={result} />
             <input type='button' value="9" onClick={click} />
             <input type='button' value="8" onClick={click} />
             <input type='button' value="7" onClick={click} />
@@ -54,9 +54,12 @@ function Sarvice() {
             <input type='button' value="." onClick={click} />
             <input type='button' value="clear" onClick={clear} />
             <input type='button' value="=" onClick={calculet} />
-            
-            <button><Link to="/Movie">HOME</Link></button>
+
             <button onClick={handle}>DONE!</button>
+
+            <button><Link to="/Movie">CANCEL</Link></button>
+
+
 
 
         </div>

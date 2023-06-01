@@ -46,10 +46,11 @@ function Movie() {
 
         <nav className="navbar bg-body-tertiary bg-primary">
           <div className="container-fluid">
-            <a className="navbar-brand">BOOK YOUR TICKET🔖 ------- <Link to="/Sarvice"><button>Payment</button></Link> </a>
+            <a className="navbar-brand">🎞️🎬📽️BOOK YOUR TICKET🔖 -------</a> <Link to="/Sarvice"><button>Payment</button></Link> 
             <form className="d-flex" role="search">
               <input className="form-control me-2 bg-secondary" onChange={(e) => check(e.target.value)} type="search" placeholder="Search Movie" aria-label="Search" />
-              <button className="btn btn-primary" type="submit">Search</button>
+
+              <button className="btn btn-secondary"  ><Link to='/product'>Movie details</Link></button>
             </form>
           </div>
         </nav>

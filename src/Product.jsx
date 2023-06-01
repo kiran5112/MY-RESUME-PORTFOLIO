@@ -16,7 +16,7 @@ function Product() {
             <button><Link to="/Movie">HOME</Link></button>
 
             <div>
-                <p>
+                
                     <details><h1>Movie History</h1>
                         <summary>
                             "Title": "Prisoners",
@@ -105,10 +105,8 @@ function Product() {
                     "Production": "Warner Bros.",
                     "Website": "N/A",
                     "Response": "True"
-                </p>
-                <p>
-
-                </p>
+               
+               
                 <marquee direction="left"><h3>💰 50% Discount offer Apply on week days💰 Thanks for visit!</h3></marquee>
             </div>
 
