@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -261,7 +260,4 @@ label {
   font-style: italic;
 }
 
-Link {
-  text-decoration: none;
 
-}

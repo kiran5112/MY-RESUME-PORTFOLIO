@@ -33,22 +33,22 @@ function Page() {
         <label>E</label>  <input onClick={time} type="checkbox" />
         <label>F</label> <input onClick={time} type="checkbox" />
         <label>G</label> <input onClick={time} type="checkbox" />
-        <label>H</label> <input onClick={falsy} checked='true' type="checkbox" />
+        <label>H</label> <input onClick={falsy} checked={true} type="checkbox" />
         <label>I</label> <input onClick={time} type="checkbox" />
         <label>J</label> <input onClick={time} type="checkbox" />
         <label>K</label> <input onClick={time} type="checkbox" />
         <label>L</label> <input onClick={time} type="checkbox" />
         <label>M</label> <input onClick={time} type="checkbox" />
-        <label>N</label> <input onClick={falsy} checked='true' type="checkbox" />
+        <label>N</label> <input onClick={falsy} checked={true} type="checkbox" />
         <label>L</label> <input onClick={time} type="checkbox" />
         <label>O</label> <input onClick={time} type="checkbox" />
-        <label>P</label> <input onClick={falsy} checked='true' type="checkbox" />
-        <label>Q</label> <input onClick={falsy} checked='true' type="checkbox" />
-        <label><dfn title='reverved'>R</dfn></label> <input checked='true' type="checkbox" />
+        <label>P</label> <input onClick={falsy} checked={true} type="checkbox" />
+        <label>Q</label> <input onClick={falsy} checked={true} type="checkbox" />
+        <label><dfn title='reverved'>R</dfn></label> <input checked={true} type="checkbox" />
         <label>S</label> <input onClick={time} type="checkbox" />
-        <label>T</label> <input onClick={falsy} checked='true' type="checkbox" />
+        <label>T</label> <input onClick={falsy} checked={true} type="checkbox" />
         <label>U</label> <input onClick={time} type="checkbox" />
-        <label>V</label> <input onClick={falsy} checked="true" type="checkbox" />
+        <label>V</label> <input onClick={falsy} checked={true} type="checkbox" />
 
         <button><Link to="/Sarvice">PAY NOW</Link></button>
         <button><Link to="/Movie">CANCEL</Link></button>
