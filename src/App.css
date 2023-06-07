@@ -5,7 +5,8 @@
 
 body {
   background-color: black;
-  color: white;
+  color: burlywood;
+  font-style: italic;
 }
 
 .app {
@@ -45,17 +46,18 @@ body {
 }
 
 button {
-  background-color: pink;
+  background-color: cornflowerblue;
   font-weight: bold;
-  border-radius: 10px;
   margin-left: 15px;
-  padding: 4px;
+  padding: 10px;
+  transition: 5s;
 
 
 }
 
 button:hover {
   background-color: royalblue;
+  transform: scale(1.7);
 }
 
 .pop {
@@ -119,6 +121,7 @@ h5,
 h3,
 h2 {
   text-align: center;
+  padding-top: 70px;
 
 
   font-family: monospace;
@@ -141,15 +144,16 @@ h6 {
 .cool {
   height: 24px;
   width: 24px;
-  background-color: yellow;
+  background-color: cornflowerblue;
   border-radius: 50%;
+  padding: auto;
 
 
-  font-size: 17px;
+  font-size: 20px;
   opacity: 0.7;
   color: black;
   position: absolute;
-  top: 4px;
+  top: 8px;
   left: 85px;
 }
 
@@ -182,24 +186,21 @@ h6 {
 img {
   width: 320px;
   height: 310px;
-  border: 1px plum solid;
   padding: 25px;
-  border-radius: 5px;
-
-
+  border-radius: 15px;
+  transition: 3s;
+  opacity: 0.9;
 
 
 }
 
 img:hover {
-  border-color: blue;
-  height: 340px;
-  width: 320px;
-  transition: ease;
-  transition-delay: 1s;
-  animation-name: kiran;
-  animation-timing-function: ease-in-out;
+  border: 1px slateblue solid;
+  height: 320px;
+  width: 310px;
+  transform: scale(1.8);
 
+  
 
 }
 
@@ -259,6 +260,7 @@ label {
   text-shadow: 1px 2px yellowgreen;
   font-weight: bold;
   font-style: italic;
+  margin: auto;
 }
 
 
@@ -300,10 +302,7 @@ li::first-letter {
 
 
 
-/* button:hover {
-  background-color: red;
-  border: 3px yellowgreen solid;
-} */
+
 
 
 

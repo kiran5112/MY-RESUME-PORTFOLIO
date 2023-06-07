@@ -54,6 +54,8 @@ function Web() {
         <>
             <div >
 
+
+<h2>shopping now 🎊💰</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quibusdam, consectetur vel distinctio neque reprehenderit dicta numquam repellat praesentium
                     fuga quis officiis a facere! Tenetur cum a impedit optio eligendi!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempore odit voluptate suscipit, totam quod expedita cumque optio repellendus illo voluptatum quis, quas fugiat r
@@ -65,6 +67,7 @@ function Web() {
                     <nav className="navbar navbar-dark bg-dark fixed-top " >
                         <div className="container-fluid">
                             <Link to="/page" className="navbar-brand" ><span>FlipCart🛒</span> <span className='cool'>{sum}</span></Link>
+                            <button><Link className="nav-link" to="/sarvice">PAY</Link></button>
                             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -111,7 +114,7 @@ function Web() {
                             return <div key={index}>
                                 <img src={item.thumbnail} />
                                 {/* {item.count} */}
-                                <button onClick={() => handle(index)}>{buy ? "book now" : "buy"}</button>
+                                <button onClick={() => handle(index)}><a href="https://www.flipkart.com/mobile-phones-store">BUY NOW</a></button>
                                 <button onClick={() => add(index)}>add</button>
                                 <button onClick={() => sub(index)}>sub</button>
 
@@ -121,7 +124,6 @@ function Web() {
                         })
                     }
                 </div>
-               
                
 
             </div>

@@ -41,10 +41,8 @@ function App() {
 
 
 
+    <Web/>
 
-      {/* <Clocks /> */}
-      {/* <Portfolio /> */}
-      <Movie/>
     </div>
   )
 }
