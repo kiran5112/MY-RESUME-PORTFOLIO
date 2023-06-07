@@ -1,5 +1,7 @@
 import { useState } from "react";
-import React from "react";
+// import React from "react";
+import './style.css'
+
 
 
 function Tipcl() {
@@ -16,7 +18,7 @@ function Tipcl() {
         setResult({ total, totalPerDiner: +total / +numDiners });
     };
     return (
-        <div className="App">
+        <div className="tip">
             <form onSubmit={submit}>
                 <fieldset>
                     <label>subtotal</label>
@@ -26,7 +28,7 @@ function Tipcl() {
                     />
                 </fieldset>
                 <fieldset>
-                    <label>number of people sharing the bill</label>
+                    <label className="foo">number of people sharing the bill</label>
                     <input
                         value={numDiners}
                         onChange={(e) => setNumDiners(e.target.value)}
@@ -60,52 +62,5 @@ function Tipcl() {
 
 export default Tipcl;
 
-
-function Clocks() {
-    const [result, setResult] = useState("")
-
-
-    function click(e) {
-        setResult(result.concat(e.target.value))
-        
-        
-    }
-
-    function clear() {
-        setResult("")
-    }
-    function calculet() {
-        setResult(eval(result).toString())
-    }
-
-
-    return (
-        <div><h1>my calculeter</h1>
-            <input placeholder='0' value={result} />
-            <input type='button' value="9" onClick={click} />
-            <input type='button' value="8" onClick={click} />
-            <input type='button' value="7" onClick={click} />
-            <input type='button' value="6" onClick={click} />
-            <input type='button' value="5" onClick={click} />
-            <input type='button' value="4" onClick={click} />
-            <input type='button' value="3" onClick={click} />
-            <input type='button' value="2" onClick={click} />
-            <input type='button' value="1" onClick={click} />
-            <input type='button' value="0" onClick={click} />
-            <input type='button' value="+" onClick={click} />
-            <input type='button' value="-" onClick={click} />
-            <input type='button' value="/" onClick={click} />
-            <input type='button' value="*" onClick={click} />
-            <input type='button' value="." onClick={click} />
-            <input type='button' value="clear" onClick={clear} />
-            <input type='button' value="=" onClick={calculet} />
-            {/* <input type='button' value="back" onClick={popp} /> */}
-
-
-        </div>
-    )
-}
-
-// export default Clocks;
 
 

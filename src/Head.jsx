@@ -11,6 +11,11 @@ function Head() {
             <div><Link to="/Page">Page</Link></div><br></br> 
              <Link to="/click">click</Link>
              <Link to="/Movie">Movie</Link>
+             <Link to="/Web">Web</Link>
+             <Link to="/Portfolio">Portfolio</Link>
+             <Link to="/Weather">Weather</Link>
+             <Link to="/Tipcl">tipcl</Link>
+             <Link to="/Clock">clock</Link>
             
         </div>
     )

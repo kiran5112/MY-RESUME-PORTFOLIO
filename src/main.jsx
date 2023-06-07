@@ -13,6 +13,11 @@ import Click from './Click'
 // import { Provider } from 'react-redux'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Movie from './PROJECTS/Movie'
+import Web from './PROJECTS/Web'
+import Tipcl from './Tipcl'
+import Portfolio from './PROJECTS/Portfolio'
+import ClowdApp from './PROJECTS/ClowdApp'
+import Clocks from './PROJECTS/Clocks'
 const router = createBrowserRouter([
    {
       path: '/',
@@ -42,6 +47,26 @@ const router = createBrowserRouter([
          {
             path: "Movie",
             element: <Movie />
+         },
+         {
+            path:"Web",
+            element:<Web/>
+         },
+         {
+            path:"Portfolio",
+            element:<Portfolio/>
+         },
+         {
+            path:"Weather",
+            element:<ClowdApp/>
+         },
+         {
+            path:"Tipcl",
+            element:<Tipcl/>
+         },
+         {
+            path:"Clock",
+            element:<Clocks/>
          }
       // ]
    

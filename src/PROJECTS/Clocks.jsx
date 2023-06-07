@@ -10,9 +10,65 @@ function Clocks() {
         setCtime(time)
     }
     setInterval(handle, 1000)
+
+
+    const [result, setResult] = useState("")
+
+
+    function click(e) {
+        setResult(result.concat(e.target.value))
+        
+        
+    }
+
+    function clear() {
+        setResult("")
+    }
+    function calculet() {
+        setResult(eval(result).toString())
+    }
+
+
+
     return (
         <div>
             <h1>{ctime}</h1>
+
+
+<div>
+
+<div className='clo'><h1>My calculator</h1>
+            <input id='ek' placeholder='0' value={result} />
+            <input type='button' value="9" onClick={click} />
+            <input type='button' value="8" onClick={click} />
+            <input type='button' value="7" onClick={click} />
+            <input type='button' value="6" onClick={click} />
+            <input type='button' value="5" onClick={click} />
+            <input type='button' value="4" onClick={click} />
+            <input type='button' value="3" onClick={click} />
+            <input type='button' value="2" onClick={click} />
+            <input type='button' value="1" onClick={click} />
+            <input type='button' value="0" onClick={click} />
+            <input type='button' value="+" onClick={click} />
+            <input type='button' value="-" onClick={click} />
+            <input type='button' value="/" onClick={click} />
+            <input type='button' value="*" onClick={click} />
+            <input type='button' value="." onClick={click} />
+            <input type='button' value="clear" onClick={clear} />
+            <input type='button' value="=" onClick={calculet} />
+            {/* <input type='button' value="back" onClick={popp} /> */}
+
+
+        </div>
+    
+
+
+</div>
+
+
+
+
+
         </div>
     )
 }
@@ -67,22 +123,4 @@ export default Clocks
 
 // export default Clocks
 
-function App() {
-    const [btn, setBtn] = useState(true)
-  
-    return (
-      <div className='App'>
-  
-  <h1>kiran</h1>
-  
-        <button onClick={() => setBtn(!btn)}>
-          {btn ? <span>update
-          </span> : <div className='pop'>
-            Do you want to save this:<input type='text' placeholder='save' /></div>}
-  
-        </button>
-  
-  
-      </div>
-    )
-  }
+

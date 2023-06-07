@@ -21,15 +21,8 @@ function ClowdApp() {
   setTime(tool)
   }
   setInterval(handle,1000)
-  function popUp(){
-    swal({title:"sorry!",
-    text: "You clicked the button!",
-     icon:"error",
-    button:"try Again",
-    });
 
-   }
-   popUp()
+  
   return (
     <div>
 <h5>Check your city weather</h5>

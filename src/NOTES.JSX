@@ -98,6 +98,19 @@
 // use for small project                    mostly use for big projects
 // it gives error while running             its gives error while we coding
 
+// REACT                                    ANGULER
+// react is a library                        anguler is a fram work
+// use javascript                            use typesccript
+// develop by facebook                       develops by google
+// open source                                 open soucrece
+// virsual dom                                   real dom
+// storng packeging                              weak packeging
+// easy to learn                               comlex to learn   
+
+// Operator precedence describes the order in which operations are performed in an arithmetic expression.
+
+// Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+
 
 
 

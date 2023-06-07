@@ -9,8 +9,8 @@ import axios from 'axios';
 // import Clocks from './PROJECTS/Clocks';
 // import PRAC2 from './PROJECTS/PRAC2';
 // import ClowdApp from './PROJECTS/ClowdApp';
-// import Tipcl from './Tipcl';
-// import Web from './PROJECTS/Web';
+import Tipcl from './Tipcl';
+import Web from './PROJECTS/Web';
 // import Cart from './Cart';
 // import Flex from './PROJECTS/Flex';
 // import Ecommers from './PROJECTS/Ecommers';
@@ -23,18 +23,27 @@ import Movie from './PROJECTS/Movie';
 // import  Axios  from 'Axios';
 import SeatBooking from "./PROJECTS/SeatBooking";
 import Head from './Head';
+import Javascript from './Javascript';
+import Footer from './PROJECTS/Footer';
+import Portfolio from './PROJECTS/Portfolio';
+import Ecommers from './PROJECTS/Ecommers';
+import Clocks from './PROJECTS/Clocks';
+
+
 
 
 
 function App() {
 
-  
+
   return (
     <div>
- 
-    <Movie/>
-    <Head />
-    
+
+
+
+
+      {/* <Clocks /> */}
+      <Portfolio />
     </div>
   )
 }
