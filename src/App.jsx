@@ -43,7 +43,8 @@ function App() {
 
 
       {/* <Clocks /> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <Movie/>
     </div>
   )
 }

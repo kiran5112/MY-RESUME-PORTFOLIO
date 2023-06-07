@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: black;
     margin: 0%;
     padding: 0%;
@@ -83,8 +83,6 @@ imges {
     width: 370px;
     border: 1px grey solid;
     transform: rotate(49deg);
-    /* top: 120px; */
-    /* right: 10px; */
     padding: 50px;
   }
   
@@ -105,4 +103,4 @@ imges {
     width: 600px;
     border: 3px solid wheat;
     background-color: red;
-  }
+  } */
