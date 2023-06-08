@@ -15,7 +15,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Movie from './BOOCK/Movie'
 import Web from './SHOPING/Web'
 import Tipcl from './PROJECTS/Tipcl'
-import Portfolio from './PROJECTS/Portfolio'
+import Portfolio from './MYRESUME/Portfolio'
 import ClowdApp from './PROJECTS/ClowdApp'
 import Clocks from './PROJECTS/Clocks'
 const router = createBrowserRouter([

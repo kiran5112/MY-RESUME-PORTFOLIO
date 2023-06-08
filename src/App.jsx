@@ -25,7 +25,7 @@ import SeatBooking from "./PROJECTS/SeatBooking";
 import Head from './Head';
 import Javascript from './Javascript';
 import Footer from './PROJECTS/Footer';
-import Portfolio from './PROJECTS/Portfolio';
+import Portfolio from './MYRESUME/Portfolio';
 import Ecommers from './PROJECTS/Ecommers';
 import Clocks from './PROJECTS/Clocks';
 
@@ -40,8 +40,9 @@ function App() {
     <div>
 
 
+<Portfolio/>
 
-<Web/>
+
 
     </div>
   )
