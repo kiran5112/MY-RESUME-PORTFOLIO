@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
 }
@@ -8,6 +8,8 @@ body {
   color: burlywood;
   font-style: italic;
 }
+
+
 
 .app {
   text-align: center;
@@ -50,14 +52,14 @@ button {
   font-weight: bold;
   margin-left: 15px;
   padding: 10px;
-  transition: 5s;
+  transition: 1s;
 
 
 }
 
 button:hover {
   background-color: royalblue;
-  transform: scale(1.7);
+  transform: scale(1.1);
 }
 
 .pop {
@@ -106,8 +108,6 @@ input:hover {
   transform: translate(-50%, -50%);
   height: 500px;
   width: 400px;
-
-
   border-radius: 30px;
   background-image: linear-gradient(skyblue, white, skyblue);
 }
@@ -121,9 +121,7 @@ h5,
 h3,
 h2 {
   text-align: center;
-  padding-top: 70px;
-
-
+  padding-top: 20px;
   font-family: monospace;
   font-style: italic;
 
@@ -356,4 +354,6 @@ h2 {
   width: 300px;
   margin-right: 80%;
   text-align: center;
-}
+} 
+
+  

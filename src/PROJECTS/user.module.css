@@ -104,3 +104,107 @@ imges {
     border: 3px solid wheat;
     background-color: red;
   } */
+
+  body {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    list-style: none;
+}
+
+.port a {
+    color: aqua;
+}
+
+.port a:hover {
+    color: blue;
+}
+
+.port h1 {
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(43, 159, 206);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li::first-letter {
+    font-size: 40px;
+}
+
+.font {
+    position: absolute;
+    color: bisque;
+    left: 40px;
+    top: 200px;
+}
+
+.port button {
+    background-color: cornflowerblue;
+    margin-left: 130px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.port button:hover {
+    background-color: red;
+    border: 3px yellowgreen solid;
+}
+
+.imgg {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.port img {
+    height: 270px;
+    width: 250px;
+    margin: auto;
+    border: 1px skyblue solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: rotate(-50deg);
+}
+
+.port span {
+    color: royalblue;
+    font-weight: bold;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+.box {
+    height: 400px;
+    width: 450px;
+    /* border: 1px grey solid; */
+    transform: rotate(49deg);
+    padding: 50px;
+}
+
+.list {
+    color: white;
+    list-style: none;
+    word-spacing: 8px;
+}
+
+.text {
+    color: bisque;
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
