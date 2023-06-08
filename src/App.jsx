@@ -10,7 +10,7 @@ import axios from 'axios';
 // import PRAC2 from './PROJECTS/PRAC2';
 // import ClowdApp from './PROJECTS/ClowdApp';
 import Tipcl from './PROJECTS/Tipcl';
-import Web from './PROJECTS/Web';
+import Web from './SHOPING/Web';
 // import Cart from './Cart';
 // import Flex from './PROJECTS/Flex';
 // import Ecommers from './PROJECTS/Ecommers';
@@ -40,8 +40,8 @@ function App() {
     <div>
 
 
-<Portfolio/>
 
+<Web/>
 
     </div>
   )

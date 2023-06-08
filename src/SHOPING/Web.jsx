@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import ClowdApp from './ClowdApp'
+import ClowdApp from '../PROJECTS/ClowdApp'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import Footer from './Footer'
+import Footer from '../PROJECTS/Footer'
 
 
 function Web() {
