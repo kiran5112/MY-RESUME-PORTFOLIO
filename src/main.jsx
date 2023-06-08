@@ -12,9 +12,9 @@ import Click from './Click'
 // import Store from './Store'
 // import { Provider } from 'react-redux'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Movie from './PROJECTS/Movie'
+import Movie from './BOOCK/Movie'
 import Web from './PROJECTS/Web'
-import Tipcl from './Tipcl'
+import Tipcl from './PROJECTS/Tipcl'
 import Portfolio from './PROJECTS/Portfolio'
 import ClowdApp from './PROJECTS/ClowdApp'
 import Clocks from './PROJECTS/Clocks'
@@ -24,52 +24,52 @@ const router = createBrowserRouter([
       element: <App />,
       // children: [
    },
-         {
-            path: "/Sarvice",
-            element: <Sarvice />
-         },
-         {
-            path: "product",
-            element: <Product />
-         },
-         {
-            path: "Contacts",
-            element: <Contacts />
-         },
-         {
-            path: "page",
-            element: <Page />
-         },
-         {
-            path: "click",
-            element: <Click />
-         },
-         {
-            path: "Movie",
-            element: <Movie />
-         },
-         {
-            path:"Web",
-            element:<Web/>
-         },
-         {
-            path:"Portfolio",
-            element:<Portfolio/>
-         },
-         {
-            path:"Weather",
-            element:<ClowdApp/>
-         },
-         {
-            path:"Tipcl",
-            element:<Tipcl/>
-         },
-         {
-            path:"Clock",
-            element:<Clocks/>
-         }
-      // ]
-   
+   {
+      path: "/Sarvice",
+      element: <Sarvice />
+   },
+   {
+      path: "product",
+      element: <Product />
+   },
+   {
+      path: "Contacts",
+      element: <Contacts />
+   },
+   {
+      path: "page",
+      element: <Page />
+   },
+   {
+      path: "click",
+      element: <Click />
+   },
+   {
+      path: "Movie",
+      element: <Movie />
+   },
+   {
+      path: "Web",
+      element: <Web />
+   },
+   {
+      path: "Portfolio",
+      element: <Portfolio />
+   },
+   {
+      path: "Weather",
+      element: <ClowdApp />
+   },
+   {
+      path: "Tipcl",
+      element: <Tipcl />
+   },
+   {
+      path: "Clock",
+      element: <Clocks />
+   }
+   // ]
+
 
 ])
 

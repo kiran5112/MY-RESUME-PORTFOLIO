@@ -186,7 +186,7 @@ img {
   height: 310px;
   padding: 25px;
   border-radius: 15px;
-  transition: 3s;
+  transition: 1s;
   opacity: 0.9;
 
 
@@ -196,7 +196,7 @@ img:hover {
   border: 1px slateblue solid;
   height: 320px;
   width: 310px;
-  transform: scale(1.8);
+  transform: scale(1.1);
 
   
 

@@ -9,7 +9,7 @@ import axios from 'axios';
 // import Clocks from './PROJECTS/Clocks';
 // import PRAC2 from './PROJECTS/PRAC2';
 // import ClowdApp from './PROJECTS/ClowdApp';
-import Tipcl from './Tipcl';
+import Tipcl from './PROJECTS/Tipcl';
 import Web from './PROJECTS/Web';
 // import Cart from './Cart';
 // import Flex from './PROJECTS/Flex';
@@ -18,7 +18,7 @@ import Web from './PROJECTS/Web';
 // import { Outlet } from 'react-router-dom';
 // import Head from './Head';
 // import Javascript from './Javascript';
-import Movie from './PROJECTS/Movie';
+import Movie from './BOOCK/Movie';
 // import LocalMovie from 'MOVIE_DATA'
 // import  Axios  from 'Axios';
 import SeatBooking from "./PROJECTS/SeatBooking";
@@ -39,9 +39,8 @@ function App() {
   return (
     <div>
 
+<Movie/>
 
-
-    <Portfolio/>
 
     </div>
   )
