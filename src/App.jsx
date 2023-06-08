@@ -39,7 +39,8 @@ function App() {
   return (
     <div>
 
-<Movie/>
+
+<Portfolio/>
 
 
     </div>
