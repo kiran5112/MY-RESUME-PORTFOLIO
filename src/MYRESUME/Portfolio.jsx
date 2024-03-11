@@ -10,10 +10,9 @@ function Portfolio() {
         <div className={style.port}>
             <div>
                 <ul className={style.main}>
-                    <li> <a href="coder image.webp">🧑‍⚖️</a></li>
+
                     <li> <a href="https://kiran5112.github.io/Chocolate-clone/">FRIST-PROJECT</a></li>
                     <li> <a href="https://www.linkedin.com/in/kiran-randhawa/"> HIRE ME</a></li>
-                    <li> <a href="https://www.linkedin.com/in/kiran-randhawa/">ABAUT</a></li>
                     <li> <a href="#"> PORTFOLIO</a></li>
                     <li> <a href="#"> SERVICES</a></li>
 
@@ -23,7 +22,6 @@ function Portfolio() {
                     <h1>Kiran Randhawa</h1>
                     <h2>And I am a <span className="span">React Developer💻</span>
                     </h2>
-                    <button> <a href="https://www.linkedin.com/in/kiran-randhawa/">DOWNLOAD CV</a></button>
                 </div>
 
 
